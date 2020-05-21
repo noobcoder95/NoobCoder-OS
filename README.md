@@ -1,6 +1,6 @@
 #README
 
-A collection of scripts intended for the development of NoobCoder OS.
+A collection of scripts intended for NoobCoder OS development.
 List of Scripts:
 1. noob boost -> a script that automatically configures and activates zram-swap.
 2. noob2hack -> a script that automatically configures and installs the kali-linux repository.
