@@ -1,4 +1,4 @@
-#README
+<h1>README</h1>
 
 A collection of scripts intended for NoobCoder OS development.
 List of Scripts:
@@ -19,7 +19,7 @@ NOTE:           After you have successfully run the "noob2hack" script, it's rec
                 or "noobhack-tools install <package-name>" command.
 
 
-#NOOBCODER OS
+<h2>NOOBCODER OS</h2>
 
 NoobCoder OS is one of the Ubuntu-based GNU / Linux distributions built specifically
 for programmers/developers/software engineers and even reverse engineers.
