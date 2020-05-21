@@ -1,8 +1,8 @@
-<h1>README</h1>
+<h1>ABOUT SCRIPT FILES</h1>
 
 A collection of scripts intended for NoobCoder OS development.
 List of Scripts:
-1. noob boost -> a script that automatically configures and activates zram-swap.
+1. noobboost -> a script that automatically configures and activates zram-swap.
 2. noob2hack -> a script that automatically configures and installs the kali-linux repository.
 
 Usage:
@@ -19,7 +19,9 @@ NOTE:           After you have successfully run the "noob2hack" script, it's rec
                 or "noobhack-tools install <package-name>" command.
 
 
-<h2>NOOBCODER OS</h2>
+#################################################################################################
+
+<h1>NOOBCODER OS</h1>
 
 NoobCoder OS is one of the Ubuntu-based GNU / Linux distributions built specifically
 for programmers/developers/software engineers and even reverse engineers.
