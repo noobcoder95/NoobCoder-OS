@@ -7,10 +7,10 @@ List of Scripts:
 
 Usage:
 - NoobCoder OS: Thoose scripts above are automatically embedded in the '/usr/local/bin/' directory.
-                Just run it using the command "sudo <script-name>", e.g "sudo noobbost".
+                Just run it using the command "sudo [script-name]", e.g "sudo noobbost".
 - Ubuntu:       Since NoobCoderOS is built on Ubuntu, the scripts above also run without problems.
                 You only need to download the scripts and after that run the command
-                "sudo chmod +x <script-name> && sudo ./<script-name>",
+                "sudo chmod +x [script-name] && sudo ./[script-name]",
                 e.g "sudo chmod +x noob2hack && sudo ./noob2hack".
                 
 NOTE:           After you have successfully run the "noob2hack" script, it's recommended not to
