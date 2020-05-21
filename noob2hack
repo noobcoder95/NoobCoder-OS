@@ -39,5 +39,5 @@ echo "\
 
 NOTE: Please do not use the \"apt or apt-get\" command
       to install packages from the Kali-Linux repository.
-      Use \"sudo noobhack-tools install <package-name>\" instead.
+      Instead, use \"sudo noobhack-tools install <package-name>\" command.
 "
