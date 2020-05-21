@@ -32,6 +32,8 @@ according to the Ubuntu Long Term Support release schedule.
 At present, I am still alone as a developer and maintainer of this Operating System,
 if anyone is willing to develop the OS and join this project, please contact me.
 
+Download Link: https://drive.google.com/drive/folders/1nmQoc8lMXIMWJLZIahZCOjo1tDAy_zeY?usp=sharing
+
 List of available pre-built programming tools:
 1. Editor: Emacs and VIM
 2. IDE: Android Studio, QtCreator, IntelliJ IDEA, Codeblocks
