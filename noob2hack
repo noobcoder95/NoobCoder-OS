@@ -1,0 +1,38 @@
+#!/bin/bash
+
+clear
+
+echo "\
+|----------------NoobCoder-Hack----------------|
+|                     with                     |
+|-----Kali Linux Penetration Testing Tools-----|
+|					       |
+| Author: Verdi <Developer@NoobCoder_OS        |
+| Version: 1				       |
+| Description: Kali Linux Repository Installer |
+------------------------------------------------
+"
+if [[ $(id -u) -ne 0 ]];
+    then
+        echo "Please run as root" ;
+        exit 1
+fi
+
+if [ -f /etc/apt/sources.list.d/kali.list ] || [ -f /etc/apt/preferences.d/kali.pref ] || [ -f /usr/local/bin/noobhack-tools ]
+    then
+        sudo rm /usr/local/bin/noobhack-tools || sudo rm /etc/apt/sources.list.d/kali.list || sudo rm /etc/apt/preferences.d/kali.pref
+fi
+
+sudo echo "deb https://http.kali.org/kali kali-rolling main non-free contrib" > /etc/apt/sources.list.d/kali.list && wget 'https://archive.kali.org/archive-key.asc' && sudo apt-key add archive-key.asc && sudo rm archive-key.asc && sudo echo "\
+Package: *
+Pin: release a=kali-rolling
+Pin-Priority: 50
+" > /etc/apt/preferences.d/kali.pref && sudo apt-get update && sudo ln -Ls /usr/bin/aptitude /usr/local/bin/noobhack-tools 
+
+echo "\
+*** NoobCoder-Hack Configuration Done!!! ***
+
+NOTE: Please do not use the \"apt or apt-get\" command
+      to install packages from the Kali-Linux repository.
+      Use \"sudo noobhack-tools install <package-name>\" instead.
+"
