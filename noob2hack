@@ -27,7 +27,12 @@ sudo echo "deb https://http.kali.org/kali kali-rolling main non-free contrib" > 
 Package: *
 Pin: release a=kali-rolling
 Pin-Priority: 50
-" > /etc/apt/preferences.d/kali.pref && sudo apt-get update && sudo ln -Ls /usr/bin/aptitude /usr/local/bin/noobhack-tools 
+" > /etc/apt/preferences.d/kali.pref && sudo apt-get update
+
+if [ ! -f /usr/bin/aptitude ]
+    then
+        sudo apt-get install aptitude && sudo ln -Ls /usr/bin/aptitude /usr/local/bin/noobhack-tools
+fi 
 
 echo "\
 *** NoobCoder-Hack Configuration Done!!! ***
