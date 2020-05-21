@@ -19,7 +19,7 @@ NOTE:           After you have successfully run the "noob2hack" script, it's rec
                 or "noobhack-tools install <package-name>" command.
 
 
-#################################################################################################
+##############################################################################################
 
 <h1>NOOBCODER OS</h1>
 
