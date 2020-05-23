@@ -26,7 +26,9 @@ List of available pre-built programming tools:
                                           Postman, Redis, BloomRPC, MySQL Workbench, etc.
 4. Other tools: OBS Studio, Qemu Virtual Machine, Disk Creator (Balena and WoeUSB), etc.
 
-Note: Andorid Studio, Qt Creator, InterlliJ IDEA, Anaconda, and Postman are stand-alone packages and are installed in /opt/* directory.
+Note: Andorid Studio, Qt Creator, InterlliJ IDEA, Anaconda, and Postman are stand-alone packages
+      and are installed in /opt/* directory. For electron-based app such as BloomRPC, Laravel-Kit and etc
+      are installed in /usr/local/bin/* directory.
 
 
 
