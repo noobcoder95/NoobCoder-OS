@@ -13,6 +13,11 @@ if anyone is willing to develop the OS and join this project, please contact me.
 
 Download Link: https://drive.google.com/drive/folders/1nmQoc8lMXIMWJLZIahZCOjo1tDAy_zeY?usp=sharing
 
+System Requirements:
+1. 1.5 gigahertz (GHz) or faster processor*. 
+2. 2 gigabyte 2 GB RAM.
+3. 40 GB available hard disk space.
+
 List of available pre-built programming tools:
 1. Editor: Emacs and VIM
 2. IDE: Android Studio, QtCreator, IntelliJ IDEA, Codeblocks
@@ -20,6 +25,8 @@ List of available pre-built programming tools:
                                           Perl, Python, PHP, Nodejs, MySQL, Ruby, Laravel Kit, Anaconda,
                                           Postman, Redis, BloomRPC, MySQL Workbench, etc.
 4. Other tools: OBS Studio, Qemu Virtual Machine, Disk Creator (Balena and WoeUSB), etc.
+
+Note: Andorid Studio, Qt Creator, InterlliJ IDEA, Anaconda, and Postman are stand-alone packages and are installed in /opt/* directory.
 
 
 
